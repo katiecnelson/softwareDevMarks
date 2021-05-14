@@ -1,0 +1,61 @@
+body {
+  font-family: "Lora";
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #D2E4EE;
+}
+
+footer {
+  background-color: #374358;
+  color: #fff;
+  font-size: .8rem;
+  padding: 3% 0 9%;
+  text-align: center;
+}
+
+.calculate-button {
+  margin: 5% 0;
+  text-align: center;
+}
+.top-icon {
+  transform: rotate(20deg);
+  text-align: right;
+}
+
+#header {
+  background-color: #EE7658;
+  padding: 5% 8% 5%;
+  color: #fff;
+  font-family: "Raleway";
+}
+
+#calculator {
+  background-color: #D2E4EE;
+  padding: 3% 7%;
+  color: #293241;
+}
+
+#result-section {
+  background-color: #EE7658;
+  padding: 3% 15%;
+  text-align: center;
+  color: #fff;
+}
