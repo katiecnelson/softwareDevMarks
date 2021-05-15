@@ -8,7 +8,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,12 +23,12 @@
 <body>
   <section id="header">
     <div class="row">
-      <div class="col-9">
+      <div class="col-sm-9">
           <h1>Marks Calculator</h1>
           <h2>MSc Software Development</h2>
       </div>
-        <div class="col-3">
-          <span class="fas fa-calculator fa-8x top-icon"></span>
+        <div class="col-sm-3">
+          <span class="fas fa-calculator top-icon"></span>
         </div>
     </div>
   </section>
@@ -39,7 +39,7 @@
 
 
     <div class="form-row">
-      <div class="col-7">
+      <div class="col">
         <h5>MODULE</h5>
         <p>CS808: Securities</p>
         <p>CS978: Legal & Ethics</p>
@@ -51,7 +51,7 @@
         <p>CS991: Mobile Development</p>
         <p>CS958: Project</p>
       </div>
-      <div class="col-3">
+      <div class="col-3 d-none d-sm-block">
         <h5>CREDITS</h5>
         <p>10</p>
         <p>10</p>
@@ -65,15 +65,15 @@
       </div>
       <div class="col-2">
         <h5>PERCENT</h5>
-        <input type="number" class="form-control input1" maxlength="5">
-        <input type="number" class="form-control input2" maxlength="5">
-        <input type="number" class="form-control input3" maxlength="5">
-        <input type="number" class="form-control input4" maxlength="5">
-        <input type="number" class="form-control input5" maxlength="5">
-        <input type="number" class="form-control input6" maxlength="5">
-        <input type="number" class="form-control input7" maxlength="5">
-        <input type="number" class="form-control input8" maxlength="5">
-        <input type="number" class="form-control input9" maxlength="5">
+        <input type="text" class="input-sm form-control input1" maxlength="5">
+        <input type="text" class="input-sm form-control input2" maxlength="5">
+        <input type="text" class="input-sm form-control input3" maxlength="5">
+        <input type="text" class="input-sm form-control input4" maxlength="5">
+        <input type="text" class="input-sm form-control input5" maxlength="5">
+        <input type="text" class="input-sm form-control input6" maxlength="5">
+        <input type="text" class="input-sm form-control input7" maxlength="5">
+        <input type="text" class="input-sm form-control input8" maxlength="5">
+        <input type="text" class="input-sm form-control input9" maxlength="5">
       </div>
     </div>
     </form>
@@ -84,12 +84,14 @@
   <section id="result-section">
     <div class="row">
       <div class="col-6">
-        <h3>YOUR PERCENTAGE:</h3>
-        <h6 id="percent">---</h6>
+        <h3>YOUR<br>
+          PERCENTAGE:</h3>
+        <h4 id="percent">---</h4>
       </div>
       <div class="col-6">
-        <h3>YOUR RESULT:</h3>
-        <h6 id="result">---</h6>
+        <h3>YOUR<br>
+          RESULT:</h3>
+        <h4 id="result">---</h4>
       </div>
     </div>
   </section>
