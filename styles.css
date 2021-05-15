@@ -7,20 +7,20 @@ h1 {
   font-size: 2.5rem;
 }
 
+h4 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #D2E4EE;
+}
+
 h3 {
   font-weight: 700;
 }
 
 h5 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-bottom: 2%;
-}
-
-h6 {
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #D2E4EE;
 }
 
 footer {
@@ -36,6 +36,7 @@ footer {
   text-align: center;
 }
 .top-icon {
+  font-size: 8rem;
   transform: rotate(20deg);
   text-align: right;
 }
@@ -58,4 +59,30 @@ footer {
   padding: 3% 15%;
   text-align: center;
   color: #fff;
+}
+
+/* Responsive CSS for mobile */
+@media (max-width: 575px) {
+  .top-icon {
+    font-size: 6rem;
+    transform: rotate(0);
+    margin-top: 3%
+  }
+
+  #header {
+    text-align: center;
+  }
+
+  h3, h4 {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: .9rem;
+  }
+
+  .calculate-button {
+    margin: 5% 0;
+    text-align: center;
+  }
 }
