@@ -61,6 +61,10 @@ footer {
   color: #fff;
 }
 
+.small-screen {
+  display: none;
+}
+
 /* Responsive CSS for mobile */
 @media (max-width: 575px) {
   .top-icon {
@@ -84,5 +88,17 @@ footer {
   .calculate-button {
     margin: 5% 0;
     text-align: center;
+  }
+  
+  #calculator {
+    padding: 3% 3%;
+  }
+  
+  .large-screen {
+    display: none;
+  }
+
+  .small-screen {
+    display: block;
   }
 }
