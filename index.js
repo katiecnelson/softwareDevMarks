@@ -5,7 +5,6 @@ var results = [];
 $(".btn").click(function() {
   $(".input").each(function() {
     results.push(parseFloat(this.value));
-    console.log(results);
   });
 
   if (results.includes(NaN)) {
