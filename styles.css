@@ -82,18 +82,18 @@ footer {
   }
 
   h5 {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 
   .calculate-button {
     margin: 5% 0;
     text-align: center;
   }
-  
+
   #calculator {
     padding: 3% 3%;
   }
-  
+
   .large-screen {
     display: none;
   }
